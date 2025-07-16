@@ -45,3 +45,41 @@ display: flex;
 align-items: center;
 justify-content: center;
 line-height: 30px;}
+/* media query  */
+@media(max-width: 500px){.main-div{display: flex;
+flex-direction: column;
+gap : 10px;
+background-color: seagreen;
+width: 300px;
+height: 550px;
+padding: 30px;
+border-radius: 10px;}
+.ip{padding:10px;
+font-size: 16px;
+text-align: center;
+border-radius: 10px;
+background-color: black;
+color:white;}
+label{font-size: 18px;
+font-weight: bold;}
+button{background-color:black;
+padding: 16px 16px;
+color: white;
+border-radius: 10px;
+font-size: 18px;}
+#p4{height: 80px;
+width: 254px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: center;
+background-color: black;
+color:white;
+padding: 20px;
+
+font-weight: bold;
+font-family: sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 30px;}
+}
