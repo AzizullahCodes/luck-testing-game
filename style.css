@@ -1,0 +1,23 @@
+body{height: 100vh;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.main-div{display: flex;
+flex-direction: column;
+gap : 10px;}
+/* input */
+.ip{padding:10px;
+font-size: 20px;
+text-align: center;
+border-radius: 10px;}
+
+label{font-size: 20px;
+font-weight: bold;}
+
+button{background-color: green;
+padding: 16px 16px;
+border-radius: 10px;
+font-size: 20px;}
