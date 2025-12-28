@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="main-div">
+  
+    <div class="main-div">
         <h1 class="heading-one">Lucky Bidding Game</h1>
-        <label for="">Available Coins For Playing:</label>
-        <h2 id="heading-two">1000</h2>
+        <label for="">Available Coins For Playing:<span id="heading-two"></span></label>
+        <!-- <h2 id="heading-two"></h2> -->
         <label for="">Guess Number:(From 1 to 6)</label>
-        <input type="number" class="ip" placeholder="Enter Guess Number From 1 to 6" id="userinput">
-        <label for="">Bidding Amount:</label>
-        <input type="text" class="ip"  placeholder="Enter Bidding Amount" id="bidding-amount">
-        <button onclick="checking()">Lucky Checker</button>
-       <label for="">Output:</label>
-    <div id="p4"></div>
+        <input type="number" class="ip" placeholder="Enter Bidding Amount" id="userinput">
+        <label for="">Bidding Amount:(From 1 to 1000)</label>
+        <input type="number" class="ip" placeholder="Enter Bidding amount" id="bidding-amount">
+        <button onclick="checking()">Play Game</button>
+        <label for="">Output:</label>
+        <div id="p4"></div>
+    </div>
        
     </div> 
 
