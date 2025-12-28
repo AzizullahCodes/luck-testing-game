@@ -15,7 +15,7 @@ function checking() {
   // random number (1 or 2)
   let random = Math.ceil(Math.random() * 6);
 // validation 
-if(guessNumber < 1 || guessNumber > 2){
+if(guessNumber < 1 || guessNumber > 6){
   alert('Enter correct guess number');
   return;
 }
