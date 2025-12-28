@@ -13,7 +13,7 @@ function checking() {
   document.getElementById('bidding-amount').value = '';
 
   // random number (1 or 2)
-  let random = Math.ceil(Math.random() * 2);
+  let random = Math.ceil(Math.random() * 6);
 // validation 
 if(guessNumber < 1 || guessNumber > 2){
   alert('Enter correct guess number');
